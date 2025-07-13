@@ -63,6 +63,14 @@ Proyek ini adalah aplikasi web portal berita yang dibangun menggunakan **CodeIgn
 
 ---
 
+## 👤 Struktur Role & Akses Pengguna
+| Role    | Akses                                                               |
+| ------- | ------------------------------------------------------------------- |
+| Guest   | Lihat daftar berita, cari berita, login/register                    |
+| User    | Detail berita, komentar, profil, logout                             |
+| Penulis | CRUD berita, tambah tag, upload gambar, CKEditor, dashboard penulis |
+| Admin   | Kelola user, penulis, statistik, hapus berita                       |
+
 ## 🚀 Cara Install dan Menjalankan
 
 ### 1. Clone Repository
