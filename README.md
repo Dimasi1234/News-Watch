@@ -12,8 +12,7 @@ Proyek ini adalah aplikasi web portal berita yang dibangun menggunakan **CodeIgn
 - [🚀 Cara Install dan Menjalankan](#-cara-install-dan-menjalankan)  
 - [👤 Struktur Role & Akses Pengguna](#-struktur-role--akses-pengguna)  
 - [📊 Struktur Tabel Database](#-struktur-tabel-database)  
-- [📂 Struktur Folder](#-struktur-folder)  
-- [🛠️ Rencana Pengembangan Berikutnya](#️-rencana-pengembangan-berikutnya)  
+- [📂 Struktur Folder](#-struktur-folder)
 
 ---
 
