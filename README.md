@@ -71,6 +71,44 @@ Proyek ini adalah aplikasi web portal berita yang dibangun menggunakan **CodeIgn
 | Penulis | CRUD berita, tambah tag, upload gambar, CKEditor, dashboard penulis |
 | Admin   | Kelola user, penulis, statistik, hapus berita                       |
 
+---
+
+## 📊 Struktur Tabel Database (utama)
+- users: username, email, password, role, status
+- berita: title, slug, content, id_penulis, featured_image, created_at
+- tags: id, nama_tag, slug
+- berita_tags: berita_id, tag_id (many-to-many)
+- komentar: id, berita_id, user_id, komentar, created_at
+
+---
+
+## 📂 Struktur Folder (utama)
+app/
+├── Controllers/
+│   ├── Auth.php
+│   ├── User.php
+│   ├── Penulis.php
+│   └── Admin.php
+├── Models/
+│   ├── BeritaModel.php
+│   ├── TagModel.php
+│   ├── BeritaTagModel.php
+│   ├── CommentModel.php
+│   └── UserModel.php
+├── Views/
+│   ├── user/
+│   ├── penulis/
+│   ├── admin/
+│   └── auth/
+public/
+├── assets/
+│   ├── admin/
+│   └── user/
+uploads/
+└── images/
+
+---
+
 ## 🚀 Cara Install dan Menjalankan
 
 ### 1. Clone Repository
