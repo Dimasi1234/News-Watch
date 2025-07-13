@@ -73,7 +73,7 @@ Proyek ini adalah aplikasi web portal berita yang dibangun menggunakan **CodeIgn
 
 ---
 
-## 📊 Struktur Tabel Database (utama)
+## 📊 Struktur Tabel Database
 - users: username, email, password, role, status
 - berita: title, slug, content, id_penulis, featured_image, created_at
 - tags: id, nama_tag, slug
@@ -82,7 +82,8 @@ Proyek ini adalah aplikasi web portal berita yang dibangun menggunakan **CodeIgn
 
 ---
 
-## 📂 Struktur Folder (utama)
+## 📂 Struktur Folder
+```pgsql
 app/
 ├── Controllers/
 │   ├── Auth.php
@@ -106,6 +107,7 @@ public/
 │   └── user/
 uploads/
 └── images/
+```
 
 ---
 
