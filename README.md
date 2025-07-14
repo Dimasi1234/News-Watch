@@ -115,6 +115,9 @@ uploads/
 
 ---
 
+## Video
+https://youtu.be/DfEoqdqJ64E
+
 ## 🚀 Cara Install dan Menjalankan
 
 ### 1. Clone Repository
