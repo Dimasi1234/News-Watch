@@ -110,6 +110,11 @@ uploads/
 
 ---
 
+## Poster
+<img width="1024" height="1536" alt="poster" src="https://github.com/user-attachments/assets/428bd18d-4c37-4a0e-9777-39db4f9e186e" />
+
+---
+
 ## 🚀 Cara Install dan Menjalankan
 
 ### 1. Clone Repository
